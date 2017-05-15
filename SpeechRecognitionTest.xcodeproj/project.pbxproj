@@ -14,6 +14,9 @@
 		613976651ECA3CCE003A5560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613976631ECA3CCE003A5560 /* LaunchScreen.storyboard */; };
 		613976701ECA3CCE003A5560 /* SpeechRecognitionTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139766F1ECA3CCE003A5560 /* SpeechRecognitionTestTests.swift */; };
 		6139767B1ECA3CCF003A5560 /* SpeechRecognitionTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139767A1ECA3CCF003A5560 /* SpeechRecognitionTestUITests.swift */; };
+		6139768B1ECA3D1B003A5560 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 613976891ECA3D1B003A5560 /* Background.png */; };
+		6139768C1ECA3D1B003A5560 /* RecBut.png in Resources */ = {isa = PBXBuildFile; fileRef = 6139768A1ECA3D1B003A5560 /* RecBut.png */; };
+		613976901ECA412A003A5560 /* LETextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139768F1ECA412A003A5560 /* LETextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		613976761ECA3CCF003A5560 /* SpeechRecognitionTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechRecognitionTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6139767A1ECA3CCF003A5560 /* SpeechRecognitionTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionTestUITests.swift; sourceTree = "<group>"; };
 		6139767C1ECA3CCF003A5560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613976891ECA3D1B003A5560 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		6139768A1ECA3D1B003A5560 /* RecBut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecBut.png; sourceTree = "<group>"; };
+		6139768F1ECA412A003A5560 /* LETextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LETextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,10 @@
 		613976591ECA3CCE003A5560 /* SpeechRecognitionTest */ = {
 			isa = PBXGroup;
 			children = (
+				613976881ECA3D1B003A5560 /* Images */,
 				6139765A1ECA3CCE003A5560 /* AppDelegate.swift */,
 				6139765C1ECA3CCE003A5560 /* ViewController.swift */,
+				6139768F1ECA412A003A5560 /* LETextView.swift */,
 				6139765E1ECA3CCE003A5560 /* Main.storyboard */,
 				613976611ECA3CCE003A5560 /* Assets.xcassets */,
 				613976631ECA3CCE003A5560 /* LaunchScreen.storyboard */,
@@ -123,6 +131,15 @@
 				6139767C1ECA3CCF003A5560 /* Info.plist */,
 			);
 			path = SpeechRecognitionTestUITests;
+			sourceTree = "<group>";
+		};
+		613976881ECA3D1B003A5560 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				613976891ECA3D1B003A5560 /* Background.png */,
+				6139768A1ECA3D1B003A5560 /* RecBut.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				613976651ECA3CCE003A5560 /* LaunchScreen.storyboard in Resources */,
+				6139768B1ECA3D1B003A5560 /* Background.png in Resources */,
 				613976621ECA3CCE003A5560 /* Assets.xcassets in Resources */,
+				6139768C1ECA3D1B003A5560 /* RecBut.png in Resources */,
 				613976601ECA3CCE003A5560 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613976901ECA412A003A5560 /* LETextView.swift in Sources */,
 				6139765D1ECA3CCE003A5560 /* ViewController.swift in Sources */,
 				6139765B1ECA3CCE003A5560 /* AppDelegate.swift in Sources */,
 			);
